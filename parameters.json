@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "enableSolutions1P": {
+            "value": "\"Azure Activity\",\"Microsoft Defender for Cloud\",\"Threat Intelligence\",\"Windows Server DNS\",\"Windows Firewall\",\"Microsoft Defender Threat Intelligence\",\"SOC Handbook\",\"SOC Process Framework\""
+        },
+        "enableSolutionsEssentials": {
+            "value": "\"Sentinel SOAR Essentials\",\"Attacker Tools Threat Protection Essentials\",\"Cloud Service Threat Protection Essentials\",\"Network Threat Protection Essentials\",\"Endpoint Threat Protection Essentials\""
+        },
+        "enableSolutionsTraining": {
+            "value": ""
+        },
+        "severityLevels": {
+            "value": "\"High\",\"Medium\""
+        },
+        "location": {
+            "value": "westeurope"
+        }
+    }
+}
